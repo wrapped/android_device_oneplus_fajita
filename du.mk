@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2018 The LineageOS Project
-# Copyright (C) 2018 The duRemix Project
+# Copyright (C) 2019 Dirty Unicorns
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit some common duRemix stuff.
+# Inherit some common DU stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 PRODUCT_NAME := du_fajita
@@ -39,6 +39,6 @@ TARGET_VENDOR_DEVICE_NAME := OnePlus6T
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus6T \
     PRODUCT_NAME=OnePlus6T \
-    PRIVATE_BUILD_DESC="OnePlus6T-user 9 PKQ1.180716.001 1812260627 release-keys"
+    PRIVATE_BUILD_DESC="OnePlus6T-user 9 PKQ1.180716.001 1901231231 release-keys"
 
-BUILD_FINGERPRINT := BUILD_FINGERPRINT=OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1812260627:user/release-keys
+BUILD_FINGERPRINT := OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1901231231:user/release-keys
